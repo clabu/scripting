@@ -35,8 +35,6 @@ class MessageDeliveryService:
 	  valuesha256 = hashlib.sha256(valuebase64).hexdigest()
 	  return valuesha256
 
-
-	
 	#***Dispatch Rules
 	"""You must implement the following "dispatch" rules to decide which queue gets a message. These rules must be applied in order; the first rule that matches is the one you should use. """
 	@staticmethod 
